@@ -1,3 +1,4 @@
+
 import { createReducer, on } from '@ngrx/store';
 import { PostStateInterface } from '../landingpage.model';
 import * as PostsActions from './actions';
