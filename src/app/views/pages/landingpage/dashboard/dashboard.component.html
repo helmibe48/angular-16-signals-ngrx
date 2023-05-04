@@ -1,0 +1,28 @@
+<!-- <div *ngIf="isLoading$ | async">Loading...</div> -->
+<!-- <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-11">
+    <div id="chartJantung" style="width: 100%; height: 350px"></div>
+  </div>
+</div> -->
+
+<!-- <div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-11">
+    <div id="chartTabel" style="width: 100%; height: 350px"></div>
+  </div>
+</div> -->
+
+<div class="row">
+  <div class="col-md-1"></div>
+  <div class="col-md-11">
+    <table>
+      <tbody>
+        <tr>
+          <td *ngFor="let i of chartSuhu; let j=index" > {{ i.suhu }} </td>
+          <!-- [id]="'jam'+j" -->
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+    "@amcharts/amcharts4": "^4.10.33",
     "@angular/animations": "^15.0.0",
     "@angular/common": "^15.0.0",
     "@angular/compiler": "^15.0.0",
@@ -18,7 +19,13 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "@ngrx/effects": "^15.1.0",
+    "@ngrx/store": "^15.1.0",
+    "@ngrx/store-devtools": "^15.1.0",
+    "moment": "^2.29.4",
+    "pdfmake": "^0.2.7",
     "rxjs": "~7.5.0",
+    "sweetalert2": "^11.7.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
